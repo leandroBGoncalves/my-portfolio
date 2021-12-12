@@ -1,0 +1,38 @@
+.ContainerHeaderAll {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 5rem;
+    transition: all 0.3s;
+
+    &:hover {
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.contentHeader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxLinks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    a {
+        font-size: 1.75rem;
+        color: var(--white);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+
+        & + a {
+            margin-left: 30px;
+        }
+    }
+}
